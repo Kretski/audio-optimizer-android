@@ -32,7 +32,15 @@ A pre-built demo APK is available for immediate testing:
 - Low-latency native DSP: Biquad filters, FFT, noise gate
 - WAV export for analysis & calibration
 - Designed for edge devices (phones, tablets, embedded Android)
+## 🔍 Features
 
+- ✨ **Real-time audio optimization for ALL apps** – works with **YouTube, Spotify, Netflix, games, calls**, and any audio source
+- 🧠 On-device AI: Adaptive EQ powered by **Tiny AutoFUS** (25 KB neural model)
+- 🎚️ Global audio processing via Android’s `AudioEffect` framework (`GlobalAudioEffect.kt`)
+- ⚡ Low-latency native DSP: Biquad filters, FFT analysis, noise-aware gain control
+- 📁 WAV export for calibration & offline analysis
+- 📵 **100% offline** – no internet, no cloud, no data collection
+- 📱 Lightweight (~1.2 MB APK), runs on most Android 8.0+ devices
 ---
 
 ## 🛠️ Build from Source
