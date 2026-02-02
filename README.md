@@ -1,5 +1,39 @@
 # Audio Optimizer – Adaptive On-Device Audio Processing for Android
+Major Update Incoming — Tiny AutoFUS v2
 
+We are moving beyond static audio enhancement.
+
+The next version of Audio Optimizer evolves into a context-aware edge AI signal adaptation system powered by Tiny AutoFUS v2.
+
+✨ What’s new
+
+🧠 Environment Profiling
+The system now captures a short acoustic fingerprint and adapts its DSP strategy depending on environmental characteristics (room reflections, noise conditions, open vs enclosed spaces).
+
+⏱ Temporal Adaptation Layer
+AI decisions are stabilized over time using smoothing and adaptive-rate control, turning the model into a real-time signal control loop rather than a simple inference block.
+
+📊 Signal Health Monitor
+New internal metrics track clipping probability, noise floor drift, and dynamic range behavior — enabling AI-driven signal integrity management.
+
+🔁 Model Hot-Swap Architecture
+The neural controller is now modular, allowing future TinyML models to plug into the DSP pipeline without architectural changes.
+
+🎯 Direction
+
+This update shifts the project from an “AI audio app” to a reference implementation of ultra-light edge AI for adaptive signal processing.
+
+Still:
+
+Fully offline
+
+~25 KB neural model
+
+Real-time operation
+
+Runs on standard Android hardware
+
+More details coming soon.
 ![Android](https://img.shields.io/badge/Platform-Android-green)
 ![Kotlin + C++](https://img.shields.io/badge/Language-Kotlin%20%7C%20C%2B%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-orange)
